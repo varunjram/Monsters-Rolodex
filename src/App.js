@@ -25,7 +25,7 @@ class App extends React.Component {
           return { monsters: users }
         }
       ))
-  }
+  } 
 
   onSearchChange = (e) => {
     const searchStr = e.target.value.toLowerCase()
